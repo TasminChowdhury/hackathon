@@ -8,22 +8,53 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <Button
-        android:id="@+id/AddShop"
+    <TextView
+        android:id="@+id/tvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
-        android:text="Add Shop" />
+        android:layout_marginTop="29dp"
+        android:text="LOG IN" />
 
-    <Button
-        android:id="@+id/Search"
+    <EditText
+        android:id="@+id/etUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/AddShop"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
-        android:text="Search" />
-    
-    
+        android:layout_alignBaseline="@+id/tvPassword"
+        android:layout_alignBottom="@+id/tvPassword"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:inputType="enterpassword" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvUsername"
+        android:layout_marginTop="33dp"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="Password" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvPassword"
+        android:layout_below="@+id/tvLogin"
+        android:layout_marginTop="62dp"
+        android:text="User name" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvUsername"
+        android:layout_alignBottom="@+id/tvUsername"
+        android:layout_alignRight="@+id/etUsername"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
 </RelativeLayout>
