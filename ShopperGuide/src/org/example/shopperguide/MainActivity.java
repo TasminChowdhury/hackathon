@@ -28,7 +28,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	      password = (EditText)findViewById(R.id.etpass);
 	      attempts = (TextView)findViewById(R.id.textView5);
 	      attempts.setText(Integer.toString(counter));
-	      login = (Button)findViewById(R.id.button1);
+	      login = (Button)findViewById(R.id.blogin);
 	   }
 
 	   public void login(View view){

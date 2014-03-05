@@ -25,7 +25,7 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f08000a;
-        public static final int button1=0x7f080006;
+        public static final int blogin=0x7f080006;
         public static final int editText1=0x7f080005;
         public static final int editText2=0x7f080007;
         public static final int etpass=0x7f080004;
