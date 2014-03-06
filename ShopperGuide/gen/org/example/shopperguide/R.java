@@ -28,8 +28,14 @@ public final class R {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
+<<<<<<< HEAD
         public static final int search=0x7f020001;
         public static final int starting=0x7f020002;
+=======
+        public static final int ic_launcher1=0x7f020001;
+        public static final int search=0x7f020002;
+        public static final int starting=0x7f020003;
+>>>>>>> bed78755e78d06fcb5e83db8e8b5b17111327c77
     }
     public static final class id {
         public static final int MyShopPage=0x7f0a0010;
@@ -41,7 +47,11 @@ public final class R {
         public static final int etpass=0x7f0a000c;
         public static final int etsearch=0x7f0a0002;
         public static final int etuser=0x7f0a0009;
+<<<<<<< HEAD
         public static final int ibSearch=0x7f0a0003;
+=======
+        public static final int imageButton1=0x7f0a0003;
+>>>>>>> bed78755e78d06fcb5e83db8e8b5b17111327c77
         public static final int imageView=0x7f0a0000;
         public static final int listView=0x7f0a0006;
         public static final int showresult=0x7f0a000f;

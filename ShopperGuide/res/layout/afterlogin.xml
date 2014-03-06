@@ -14,7 +14,11 @@
     </EditText>
 
     <ImageButton
+<<<<<<< HEAD
         android:id="@+id/ibSearch"
+=======
+        android:id="@+id/imageButton1"
+>>>>>>> bed78755e78d06fcb5e83db8e8b5b17111327c77
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="right"
