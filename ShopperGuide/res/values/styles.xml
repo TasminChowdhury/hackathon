@@ -16,5 +16,10 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <color name="color">#B75626</color>
+    <color name="red">#552405</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightGreen">#865310</color>
+    
 
 </resources>
