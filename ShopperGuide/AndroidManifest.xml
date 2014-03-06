@@ -39,8 +39,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+         <activity
+    android:name="org.example.shopperguide.shopActivity"
+    android:label="@string/app_name">
+</activity>
         <activity
-    android:name="org.example.shopperguide.Search"
+    android:name="org.example.shopperguide.JSONUseActivity"
     android:label="@string/app_name">
 </activity>
         

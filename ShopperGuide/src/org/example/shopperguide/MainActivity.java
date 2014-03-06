@@ -26,9 +26,12 @@ public class MainActivity extends Activity implements OnClickListener {
 	      setContentView(R.layout.main);
 	      username = (EditText)findViewById(R.id.etuser);
 	      password = (EditText)findViewById(R.id.etpass);
-	      attempts = (TextView)findViewById(R.id.textView5);
-	      attempts.setText(Integer.toString(counter));
 	      login = (Button)findViewById(R.id.blogin);
+	      
+	      login.setOnClickListener(this);
+	      
+	      
+	     
 	   }
 
 	   public void login(View view){
@@ -40,16 +43,16 @@ public class MainActivity extends Activity implements OnClickListener {
 	   else{
 	      Toast.makeText(getApplicationContext(), "Wrong Credentials",
 	      Toast.LENGTH_SHORT).show();
-	      attempts.setBackgroundColor(Color.RED);	
+	     /* attempts.setBackgroundColor(Color.RED);	
 	      counter--;
 	      attempts.setText(Integer.toString(counter));
 	      if(counter==0){
-	         login.setEnabled(false);
+	         login.setEnabled(false);*/
 	      }
 
 	   }
 
-	}
+	
 	 
 
 	
@@ -69,6 +72,10 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View arg0) {
 		// TODO Auto-generated method stub
+		Intent i=new Intent(
+                MainActivity.this,
+                shopActivity.class);
+         startActivity(i);
 		
 	}
 
