@@ -41,7 +41,7 @@ public final class R {
         public static final int etpass=0x7f0a000c;
         public static final int etsearch=0x7f0a0002;
         public static final int etuser=0x7f0a0009;
-        public static final int imageButton1=0x7f0a0003;
+        public static final int ibSearch=0x7f0a0003;
         public static final int imageView=0x7f0a0000;
         public static final int listView=0x7f0a0006;
         public static final int showresult=0x7f0a000f;
