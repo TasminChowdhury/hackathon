@@ -34,7 +34,7 @@ public class shopActivity extends Activity {
 		        myCursor.moveToFirst();
 		        while (!myCursor.isAfterLast()){
 		        	
-		        	str=str.concat(myCursor.getString(0) + " " + myCursor.getString(1)  + "\n");
+		        	str=str.concat( myCursor.getString(1)  + "\n");
 		        	
 		        	myCursor.moveToNext();
 		        }
