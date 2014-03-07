@@ -63,6 +63,11 @@
     android:name="org.example.shopperguide.JSONUseActivity"
     android:label="@string/app_name">
 </activity>
+  <!--  Entry for RegisterActivity.class -->
+        <activity android:name=".RegisterActivity"
+        		  android:label="Register New Account">
+            
+        </activity>
         
         <!-- Goolge API Key -->
         <meta-data

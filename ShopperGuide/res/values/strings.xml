@@ -7,6 +7,11 @@
    <string name="username">Username:</string>
    <string name="password">Password:</string>
    <string name="Login">Login:</string>
+   <string name="FullName">Full Name:</string>
+   <string name="Email">Email:</string>
+   <string name="Register">Register:</string>
+   <string name="text">New to Shoppers Guide?Register</string>
+   <string name="text2">Already Registered?Sign In</string>
    <string name="attempts">Attempts Left:</string>
 
 </resources>
