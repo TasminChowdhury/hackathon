@@ -19,8 +19,7 @@ public class afterLogin extends Activity implements OnClickListener{
         	   @Override
         	   public void onClick(View v) {
         	      // button 1 was clicked!
-        		   Toast.makeText(getApplicationContext(), "u pressed button shop", 
-        				      Toast.LENGTH_SHORT).show();
+        		   
         		   Intent i=new Intent(
        	                afterLogin.this,
        	                SpinnerActivity.class);
