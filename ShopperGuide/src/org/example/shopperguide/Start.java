@@ -21,7 +21,7 @@ public class Start extends Activity{
 		Thread timer=new Thread(){
 			public void run(){
 				try{
-					sleep(8000);
+					sleep(4000);
 				}catch(InterruptedException e){
 					e.printStackTrace();
 				}finally{

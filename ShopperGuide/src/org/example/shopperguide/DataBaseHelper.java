@@ -117,5 +117,11 @@ public class DataBaseHelper extends SQLiteOpenHelper{
   		Cursor cursor =dataBase.rawQuery(SQL, null) ;
   		return cursor ;
   	}
+      public Cursor getAllusers () {
+    		String SQL = "SELECT * FROM User;" ;
+    		Cursor cursor =dataBase.rawQuery(SQL, null) ;
+    		return cursor ;
+    	}
+      
 
 }

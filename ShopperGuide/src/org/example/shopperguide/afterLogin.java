@@ -23,7 +23,7 @@ public class afterLogin extends Activity implements OnClickListener{
         				      Toast.LENGTH_SHORT).show();
         		   Intent i=new Intent(
        	                afterLogin.this,
-       	                ListActivity.class);
+       	                shopActivity.class);
        	         startActivity(i);
        		
         		  
@@ -38,7 +38,7 @@ public class afterLogin extends Activity implements OnClickListener{
     	      // button 2 was clicked!
     		   Intent i=new Intent(
    	                afterLogin.this,
-   	                ListActivity.class);
+   	                shopActivity.class);
    	         startActivity(i);
     		  
     	   }
