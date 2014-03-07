@@ -85,7 +85,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		// TODO Auto-generated method stub
 		Intent i=new Intent(
                 MainActivity.this,
-                ListActivity.class);
+                afterLogin.class);
          startActivity(i);
 		
 	}

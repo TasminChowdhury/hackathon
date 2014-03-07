@@ -88,10 +88,9 @@
               android:id="@+id/link_to_register"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:layout_alignParentLeft="true"
-              android:layout_alignleft="textview3"
+              
+           
               android:layout_below="@+id/blogin"
-              android:below="blogin"
               android:gravity="center"
               android:text="@string/text"
               android:textColor="#0b84aa"

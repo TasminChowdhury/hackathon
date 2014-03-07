@@ -13,20 +13,11 @@
         <requestFocus />
     </EditText>
 
-    <ImageButton
-        android:id="@+id/ibSearch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:padding="10dip"
-        android:src="@drawable/search" />
-
     <Button
         android:id="@+id/btshop"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Shops" 
-        />
+        android:text="Shops" />
 
     <Button
         android:id="@+id/btservice"

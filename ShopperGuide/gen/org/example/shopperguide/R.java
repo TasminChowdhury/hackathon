@@ -34,30 +34,29 @@ public final class R {
         public static final int starting=0x7f020004;
     }
     public static final class id {
-        public static final int MyShopPage=0x7f0a0016;
-        public static final int action_settings=0x7f0a0017;
-        public static final int blogin=0x7f0a000b;
-        public static final int btnRegister=0x7f0a0011;
-        public static final int btservice=0x7f0a0005;
-        public static final int btshop=0x7f0a0004;
-        public static final int editText1=0x7f0a0013;
-        public static final int etpass=0x7f0a000c;
+        public static final int MyShopPage=0x7f0a0015;
+        public static final int action_settings=0x7f0a0016;
+        public static final int blogin=0x7f0a000a;
+        public static final int btnRegister=0x7f0a0010;
+        public static final int btservice=0x7f0a0004;
+        public static final int btshop=0x7f0a0003;
+        public static final int editText1=0x7f0a0012;
+        public static final int etpass=0x7f0a000b;
         public static final int etsearch=0x7f0a0002;
-        public static final int etuser=0x7f0a0009;
-        public static final int ibSearch=0x7f0a0003;
+        public static final int etuser=0x7f0a0008;
         public static final int imageView=0x7f0a0000;
-        public static final int link_to_login=0x7f0a0012;
-        public static final int link_to_register=0x7f0a000d;
-        public static final int listView=0x7f0a0006;
-        public static final int reg_email=0x7f0a000f;
-        public static final int reg_fullname=0x7f0a000e;
-        public static final int reg_password=0x7f0a0010;
-        public static final int showresult=0x7f0a0015;
-        public static final int submitbutton=0x7f0a0014;
+        public static final int link_to_login=0x7f0a0011;
+        public static final int link_to_register=0x7f0a000c;
+        public static final int listView=0x7f0a0005;
+        public static final int reg_email=0x7f0a000e;
+        public static final int reg_fullname=0x7f0a000d;
+        public static final int reg_password=0x7f0a000f;
+        public static final int showresult=0x7f0a0014;
+        public static final int submitbutton=0x7f0a0013;
         public static final int textView=0x7f0a0001;
-        public static final int textView1=0x7f0a0007;
-        public static final int textView2=0x7f0a0008;
-        public static final int textView3=0x7f0a000a;
+        public static final int textView1=0x7f0a0006;
+        public static final int textView2=0x7f0a0007;
+        public static final int textView3=0x7f0a0009;
     }
     public static final class layout {
         public static final int adapter=0x7f030000;
