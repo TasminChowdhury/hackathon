@@ -1,10 +1,11 @@
 package org.example.shopperguide;
 
+
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.Color;
-import android.util.Log;
+//import android.graphics.Color;
+//import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -17,7 +18,7 @@ public class MainActivity extends Activity implements OnClickListener {
 
 	   private EditText  username=null;
 	   private EditText  password=null;
-	   private TextView attempts;
+	  // private TextView attempts;
 	   private Button login;
 	   int counter = 3;
 	   @Override
@@ -30,7 +31,17 @@ public class MainActivity extends Activity implements OnClickListener {
 	      
 	      login.setOnClickListener(this);
 	      
-	      
+	      TextView registerScreen = (TextView) findViewById(R.id.link_to_register);
+	        
+	        // Listening to register new account link
+	      registerScreen.setOnClickListener(new View.OnClickListener() {
+				
+				public void onClick(View v) {
+					// Switching to Register screen
+					Intent i = new Intent(getApplicationContext(), RegisterActivity.class);
+					startActivity(i);
+				}
+			});
 	     
 	   }
 
