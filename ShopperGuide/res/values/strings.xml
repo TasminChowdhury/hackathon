@@ -13,5 +13,6 @@
    <string name="text">New to Shoppers Guide?Register</string>
    <string name="text2">Already Registered?Sign In</string>
    <string name="attempts">Attempts Left:</string>
+   <string name="spinner_title">SHOP</string>
 
 </resources>

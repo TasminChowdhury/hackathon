@@ -35,7 +35,7 @@ public final class R {
     }
     public static final class id {
         public static final int MyShopPage=0x7f0a0015;
-        public static final int action_settings=0x7f0a0016;
+        public static final int action_settings=0x7f0a0017;
         public static final int blogin=0x7f0a000a;
         public static final int btnRegister=0x7f0a0010;
         public static final int btservice=0x7f0a0004;
@@ -52,6 +52,7 @@ public final class R {
         public static final int reg_fullname=0x7f0a000d;
         public static final int reg_password=0x7f0a000f;
         public static final int showresult=0x7f0a0014;
+        public static final int spinner=0x7f0a0016;
         public static final int submitbutton=0x7f0a0013;
         public static final int textView=0x7f0a0001;
         public static final int textView1=0x7f0a0006;
@@ -63,10 +64,12 @@ public final class R {
         public static final int afterlogin=0x7f030001;
         public static final int listmain=0x7f030002;
         public static final int main=0x7f030003;
-        public static final int register=0x7f030004;
-        public static final int search=0x7f030005;
-        public static final int shoppage=0x7f030006;
-        public static final int starting=0x7f030007;
+        public static final int newshop=0x7f030004;
+        public static final int register=0x7f030005;
+        public static final int search=0x7f030006;
+        public static final int shoppage=0x7f030007;
+        public static final int spinner=0x7f030008;
+        public static final int starting=0x7f030009;
     }
     public static final class menu {
         public static final int main=0x7f090000;
@@ -84,6 +87,7 @@ public final class R {
         public static final int attempts=0x7f06000b;
         public static final int hello_world=0x7f060002;
         public static final int password=0x7f060004;
+        public static final int spinner_title=0x7f06000c;
         public static final int text=0x7f060009;
         public static final int text2=0x7f06000a;
         public static final int username=0x7f060003;
