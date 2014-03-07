@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	   private EditText  username=null;
 	   private EditText  password=null;
 	  // private TextView attempts;
+	   boolean flogin=false;
 	   private Button login;
 	   int counter = 3;
 	   @Override
@@ -46,20 +47,23 @@ public class MainActivity extends Activity implements OnClickListener {
 	   }
 
 	   public void login(View view){
-	      if(username.getText().toString().equals("admin") && 
+	     /* if(username.getText().toString().equals("admin") && 
 	      password.getText().toString().equals("admin")){
 	      Toast.makeText(getApplicationContext(), "Redirecting...", 
 	      Toast.LENGTH_SHORT).show();
 	   }	
 	   else{
 	      Toast.makeText(getApplicationContext(), "Wrong Credentials",
-	      Toast.LENGTH_SHORT).show();
+	      Toast.LENGTH_SHORT).show();*/
 	     /* attempts.setBackgroundColor(Color.RED);	
 	      counter--;
 	      attempts.setText(Integer.toString(counter));
 	      if(counter==0){
 	         login.setEnabled(false);*/
-	      }
+		   Intent i=new Intent(
+	                MainActivity.this,
+	                afterLogin.class);
+	         startActivity(i);
 
 	   }
 
@@ -81,16 +85,31 @@ public class MainActivity extends Activity implements OnClickListener {
 	}
 
 	@Override
-	public void onClick(View arg0) {
+	public void onClick(View V) {
 		// TODO Auto-generated method stub
-		Intent i=new Intent(
+		/*Intent i=new Intent(
                 MainActivity.this,
                 afterLogin.class);
-         startActivity(i);
+         startActivity(i);*/
+		// TODO Auto-generated method stub
+				switch(V.getId()){
+				case R.id.blogin:
+				   if(username.getText().toString().equals("admin") && 
+					      password.getText().toString().equals("admin")){
+					      Toast.makeText(getApplicationContext(), "Redirecting...", 
+					      Toast.LENGTH_SHORT).show();
+					      flogin=true;
+					      login(V);
+				   }
+				   else{
+					      Toast.makeText(getApplicationContext(), "Wrong Credentials",
+					      Toast.LENGTH_SHORT).show();
+				   }
+				   break;
+				}
 		
 	}
-
-	        
+        
 	        
 } 
 		
